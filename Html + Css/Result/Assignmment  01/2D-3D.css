@@ -1,0 +1,15 @@
+.transformed-element {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transform: scale(0.5) rotate(45deg);
+}
+
+/*This 2D, 3D with BOX*/
+
+.transformed-element {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transform: perspective(500px) rotateY(45deg);
+}

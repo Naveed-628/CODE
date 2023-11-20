@@ -1,0 +1,28 @@
+.text {
+  color: #000000;
+  font-size: 50px;
+  transition: color 0.3s;
+}
+
+.text:hover {
+  color: #ff0000;
+}
+
+/*This transition with Button*/
+
+.button {
+  padding: 100px 200px;
+  background-color: #3498db;
+  color: white;
+  border: 5px solid;
+  border-color: rgb(224, 13, 13);
+  transition: 3s ease;
+}
+
+.button:hover {
+  padding: 100px 200px;
+  background-color: rgb(226, 14, 14);
+  color: white;
+  border: px solid;
+  border-color: rgb(13, 224, 31);
+}
